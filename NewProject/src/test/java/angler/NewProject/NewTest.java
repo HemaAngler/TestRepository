@@ -19,7 +19,7 @@ public class NewTest
 	@BeforeTest
 	public void beforeTest() 
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\Software_Backup\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Software_Backup\\Selenium\\Chrome_Latest\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
@@ -29,6 +29,9 @@ public class NewTest
 	public void login() 
 	{
 		driver.get("http://52.24.74.34/staging/"); 
+		System.out.println("Page loaded..");
+		System.out.println("Page loaded..");
+		System.out.println("Page loaded..");
 		System.out.println("Page loaded..");
 	}
 
