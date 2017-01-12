@@ -16,7 +16,7 @@ public class NewTest
 {
 	WebDriver driver;
 
-	@BeforeTest
+	@BeforeClass
 	public void beforeTest() 
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\Software_Backup\\Selenium\\Chrome_Latest\\chromedriver.exe");
@@ -35,7 +35,7 @@ public class NewTest
 		System.out.println("Page loaded..");
 	}
 
-	@AfterTest
+	@AfterClass
 	public void afterTest() 
 	{
 		driver.quit();
